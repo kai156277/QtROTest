@@ -1,0 +1,5 @@
+﻿class CommonInterface
+{
+    SIGNAL(sigMessage(QString msg))
+    SLOT(void onMessage(QString msg))
+}
